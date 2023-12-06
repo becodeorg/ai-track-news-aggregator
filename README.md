@@ -12,7 +12,7 @@
 | Scrape websites               | Define needs for reporting  |
 | Find and use news API         | Organize project with DE    |
 | Store documents               | Explore documents from storage  |
-| schedule process              | Create insightful dashboard |
+| Schedule process              | Create insightful dashboard |
 | Deal with document versioning | Create tag cloud            |
 
 
@@ -27,10 +27,10 @@ They will have to find sources that they can use and create an insightful dashbo
 
 Define with your team what type of sources and what kind of information you want to gather.
 Based on that, you'll decide where you want to take your information : 
-- rss feeds from  
+- RSS feeds from  
   - newspapers (i.e [N-Y times](https://www.nytimes.com/rss)) 
-  - rss database (i.e [feedspot](https://rss.feedspot.com/world_news_rss_feeds/))
-- website scraping (newspapers, goolge news, etc.)
+  - RSS database (i.e [feedspot](https://rss.feedspot.com/world_news_rss_feeds/))
+- website scraping (newspapers, Google news, etc.)
 - opensource database (/!\ up to date ?)
 - etc.
 
@@ -43,7 +43,7 @@ The important information to retrieve are :
 
   
 ### Data pipeline
-Create a data pipeline that allow you to
+Create a data pipeline that allows you to
 - gather information from your sources
 - store them (you need to decide what technology to use)
 - schedule the update of your database
@@ -51,23 +51,29 @@ Create a data pipeline that allow you to
 
 
 ### Dashboard
-Create a dashboard that allow you to monitor the news. For instance : 
+Create a dashboard that allows you to monitor the news. For instance : 
 - what are the hot topics by country ?
 - how many articles published by country (by topic ?)
 - etc.
-- Optional and nice to have : recommend similar articles
+- Optional and nice to have: recommend similar articles
+- Optional: determine the overall sentiment of articles (e.g. talking about murdering an innocent child is rather negative, while an NYC marathon article would probably be rather positive) (hint: HuggingFace is a great platform)
 ![](img/dashboard.jpg)
 
 
 ### Presentation
-Create a small presentation (max. 6 slides) explaining your choices (which sources? what technology ? what information?) and why you did it. 
+Create a small presentation (max. 6 slides) explaining your choices (which sources? what technology ? what information?) and why you did it (= the *business question* you are answering with your dashboard). 
 The presentation should also show your dashboard specificity and its functionalities.
 
 ## Deliverables
 
 1. Publish your source code on a GitHub repository.
 
-2. Presentation
+2. Presentation (Canva, PowerPoint, Prezi, Google Slides,...) that addresses the following points (and more):
+- The business question (= why)
+- The sources you needed/used (= what)
+- The technology (= how)
+- The result
+- Your analysis (= pointers for business to make proper decisions or understand the context)
 
 3. Link to a public dashboard (optional)
 
@@ -94,6 +100,7 @@ The presentation should also show your dashboard specificity and its functionali
 |                | The dashoard is updated daily with new content          | [ ]    |
 |                | You have a nice presentation       | [ ]    |
 | 2. Is great    | You can recommend similar articles | [ ]    |
+|                | You can determine the overall sentiment of articles | [ ]   |
 |               | You have creative information to show  | [ ]    |
 
 ## A final note of encouragement
