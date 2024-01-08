@@ -25,7 +25,7 @@ To achieve this goal, we've gathered different teams mixed with data analysts an
 ### Sources 
 
 Define with your team what type of sources and what kind of information you want to gather. Based on that, you'll decide where you want to take your information from: 
-- RSS feeds from newspapers (i.e [N-Y times](https://www.nytimes.com/rss)) or RSS databases (i.e [feedspot](https://rss.feedspot.com/world_news_rss_feeds))
+- RSS feeds from newspapers (such as [N-Y times](https://www.nytimes.com/rss)) or RSS databases (such as [feedspot](https://rss.feedspot.com/world_news_rss_feeds))
 - Website scraping (newspapers, Google News, ...)
 - Open-source database (make sure to check they are refreshed regularly!)
 - ...
@@ -65,11 +65,11 @@ The presentation should also show your dashboard specificity and its functionali
 
 1. Publish your source code on a GitHub repository
 2. Presentation (Canva, PowerPoint, Prezi, Google Slides, ...) that addresses the following points (and more):
-- The business question (= why)
-- The sources you needed/used (= what)
-- The technology (= how)
-- The result (= output)
-- Your analysis (= pointers for business to make proper decisions or understand the context)
+    - The business question (= why)
+    - The sources you needed/used (= what)
+    - The technology (= how)
+    - The result (= output)
+    - Your analysis (= pointers for business to make proper decisions or understand the context)
 3. Link to a public dashboard
 
 ## Steps
@@ -77,10 +77,10 @@ The presentation should also show your dashboard specificity and its functionali
 1. Plan the work and organize your team
     - Sketch your dashboard 
     - Identify your needs
-    - Present it to the coach
+    - Present it to the coach for feedback
     - Distribute the team roles: 
-        - **GitHub Manager**: makes sure the GitHub repository stays clean and branches are properly created and merged.
-        - **Project Manager**: makes sure everybody in the team has clarity and stays focused on achieving the goal.
+        - **GitHub Manager**: makes sure the GitHub repository is clean and that branches are logically created and merged.
+        - **Project Manager**: makes sure everybody in the team has clarity and stays focused on achieving the predefined goal.
         - **Presentation Manager**: makes sure that the presentation is professional and that everything needed for that presentation is available.
 2. Look for sources 
 3. Build the pipeline
